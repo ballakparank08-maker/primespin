@@ -8,6 +8,7 @@ import { Faq } from "@/components/faq";
 import { GameGrid } from "@/components/game-grid";
 import { GuideGrid } from "@/components/guide-grid";
 import { Hero } from "@/components/hero";
+import { BouncingPicture } from "@/components/bouncing-picture";
 import { JsonLd } from "@/components/json-ld";
 import { LogoMarquee } from "@/components/logo-marquee";
 import { MobileDownloadSection } from "@/components/mobile-download-section";
@@ -127,6 +128,7 @@ export default async function HomePage({
           },
         ]}
       />
+      <BouncingPicture />
       <Hero
         locale={locale}
         eyebrow={dict.hero.eyebrow}
