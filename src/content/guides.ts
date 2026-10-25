@@ -26,9 +26,9 @@ export const guides: Guide[] = [
     category: "getting-started",
     cover: "/assets/hero/members-day.webp",
     coverAlt: {
-      en: "Lucky 8 Member's Day artwork",
-      ms: "Karya Lucky 8 Member's Day",
-      zh: "Lucky 8 会员日画面",
+      en: "PrimeSPIN Member's Day artwork",
+      ms: "Karya PrimeSPIN Member's Day",
+      zh: "PrimeSPIN 会员日画面",
     },
     publishedAt: "2026-08-01",
     updatedAt: "2026-09-30",

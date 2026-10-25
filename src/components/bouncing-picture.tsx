@@ -37,14 +37,17 @@ export function BouncingPicture() {
         const screenWidth = window.innerWidth;
         const screenHeight = window.innerHeight;
 
-        if (x + picWidth >= screenWidth || x <= 0) {
+        const maxX = Math.max(0, screenWidth - picWidth);
+        const maxY = Math.max(0, screenHeight - picHeight);
+
+        if (x >= maxX || x <= 0) {
           speedX *= -1;
-          x = Math.max(0, Math.min(x, screenWidth - picWidth));
+          x = Math.max(0, Math.min(x, maxX));
         }
 
-        if (y + picHeight >= screenHeight || y <= 0) {
+        if (y >= maxY || y <= 0) {
           speedY *= -1;
-          y = Math.max(0, Math.min(y, screenHeight - picHeight));
+          y = Math.max(0, Math.min(y, maxY));
         }
 
         rotation += 2;

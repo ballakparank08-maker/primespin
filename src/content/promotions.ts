@@ -171,9 +171,9 @@ export const promotions: Promotion[] = [
     slug: "seasonal-events",
     image: "/assets/hero/members-day.webp",
     imageAlt: {
-      en: "Lucky 8 Member's Day campaign banner",
-      ms: "Sepanduk kempen Lucky 8 Member's Day",
-      zh: "Lucky 8 会员日活动横幅",
+      en: "PrimeSPIN Member's Day campaign banner",
+      ms: "Sepanduk kempen PrimeSPIN Member's Day",
+      zh: "PrimeSPIN 会员日活动横幅",
     },
     title: {
       en: "Seasonal events",
