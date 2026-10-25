@@ -43,7 +43,7 @@ export function Hero({
     <section className="relative min-h-[38rem] overflow-hidden border-b border-line-gold/20 sm:min-h-[44rem] lg:min-h-[48rem]">
       {/* Background Graphic */}
       <Image
-        src="/images/primespin-trusted.jpg"
+        src="/assets/hero/primespin-hero-banner.webp"
         alt={imageAlt}
         fill
         priority
